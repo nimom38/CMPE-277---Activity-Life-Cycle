@@ -2,7 +2,7 @@ CMPE-277 – Assignment 1:
 
 Activity Lifecycle
 
-In this app, we've set up a system where the thread counter increases each time the Main Activity is reinitiated. This is to show that when a new activity (like Activity B or Activity C) is launched and then we return to the initial activity, the onRestart() method gets triggered, leading to a 5-point increment in the thread counter.
+In this app, we've set up a system where the thread counter increases each time the Main Activity is reinitiated. This is to show that when a new activity (like Activity B or Activity C) is launched and then we return to the initial activity, the onRestart() method gets triggered, leading to a 1-point increment in the thread counter.
 
 Conversely, if a dialog Activity is launched and we revert to the previous activity, the onRestart() method doesn't activate, resulting in no change to the thread counter.
 
